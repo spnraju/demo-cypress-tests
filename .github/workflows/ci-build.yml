@@ -1,0 +1,21 @@
+name: ci-build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  headless:
+    name: Headless
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+        with:
+          node-version: 12.x
+      - run: npm install
+      - run: npm test

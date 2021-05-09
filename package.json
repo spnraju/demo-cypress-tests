@@ -4,7 +4,8 @@
   "description": "Sample cypress tests",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run",
+    "update": "npx npm-check-updates --upgrade && npm install && npm audit fix"
   },
   "repository": {
     "type": "git",
