@@ -1,0 +1,25 @@
+{
+  "name": "demo-cypress-tests",
+  "version": "1.0.0",
+  "description": "Sample cypress tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spnraju/demo-cypress-tests.git"
+  },
+  "keywords": [
+    "spnraju"
+  ],
+  "author": "Raju",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spnraju/demo-cypress-tests/issues"
+  },
+  "homepage": "https://github.com/spnraju/demo-cypress-tests#readme",
+  "dependencies": {
+    "cypress": "^7.2.0"
+  }
+}
