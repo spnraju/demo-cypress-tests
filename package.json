@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/spnraju/demo-cypress-tests#readme",
   "dependencies": {
-    "cypress": "^7.3.0"
+    "cypress": "^7.4.0"
   }
 }
