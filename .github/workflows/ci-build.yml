@@ -9,8 +9,12 @@ on:
       - main
 
 jobs:
-  headless:
-    name: Headless
+  cypress:
+    name: ${{ matrix.browser }}
+    strategy:
+      fail-fast: true
+      matrix:
+        browser: [chrome, electron]
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@master
@@ -18,4 +22,4 @@ jobs:
         with:
           node-version: 16
       - run: npm install
-      - run: npm test
+      - run: npm run test:${{ matrix.browser }}

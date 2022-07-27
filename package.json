@@ -4,7 +4,11 @@
   "description": "Sample cypress tests",
   "main": "index.js",
   "scripts": {
+    "open": "cypress open",
     "test": "cypress run",
+    "test:chrome": "cypress run --browser chrome",
+    "test:electron": "cypress run --browser electron",
+    "test:firefox": "cypress run --browser firefox",
     "lint": "eslint --ext .js . --fix",
     "prettier": "prettier **/*.js --write",
     "update": "npx npm-check-updates --upgrade && npm install && npm audit fix"
