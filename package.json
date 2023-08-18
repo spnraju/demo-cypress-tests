@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/spnraju/demo-cypress-tests#readme",
   "dependencies": {
-    "cypress": "^12.17.3"
+    "cypress": "^12.17.4"
   },
   "devDependencies": {
     "eslint": "^8.47.0",
