@@ -4,3 +4,7 @@ logs
 node_modules
 cypress/videos
 cypress/screenshots
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*
